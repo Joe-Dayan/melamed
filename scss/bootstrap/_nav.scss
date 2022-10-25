@@ -45,7 +45,7 @@
     }
 
     &.disabled {
-      color: $nav-link-disabled-color;
+      color: rgba($color: #ad9494, $alpha: 1.0);
       background-color: transparent;
       border-color: transparent;
     }

@@ -206,7 +206,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: rgba($color: #cebdbd, $alpha: 1.0);
 
       @include hover-focus {
         color: $navbar-light-hover-color;
@@ -221,12 +221,12 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-light-active-color;
+      color: rgba($color: #e9d2d2, $alpha: 1.0);
     }
   }
 
   .navbar-toggler {
-    color: $navbar-light-color;
+    color: rgba($color: #e4caca, $alpha: 1.0);
     border-color: $navbar-light-toggler-border-color;
   }
 
@@ -235,9 +235,9 @@
   }
 
   .navbar-text {
-    color: $navbar-light-color;
+    color: rgba($color: #dac2c2, $alpha: 1.0);
     a {
-      color: $navbar-light-active-color;
+      color: rgba($color: #d8c2c2, $alpha: 1.0);
 
       @include hover-focus {
         color: $navbar-light-active-color;
@@ -249,7 +249,7 @@
 // White links against a dark background
 .navbar-dark {
   .navbar-brand {
-    color: $navbar-dark-active-color;
+    color: rgba($color: #e0cdcd, $alpha: 1.0);
 
     @include hover-focus {
       color: $navbar-dark-active-color;
@@ -258,14 +258,14 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-dark-color;
+      color: rgba($color: #e7d2d2, $alpha: 1.0);
 
       @include hover-focus {
         color: $navbar-dark-hover-color;
       }
 
       &.disabled {
-        color: $navbar-dark-disabled-color;
+        color: rgba($color: #e2d0d0, $alpha: 1.0);
       }
     }
 
@@ -273,12 +273,12 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-dark-active-color;
+      color: rgba($color: #e0cbcb, $alpha: 1.0);
     }
   }
 
   .navbar-toggler {
-    color: $navbar-dark-color;
+    color: rgba($color: #e4d2d2, $alpha: 1.0);
     border-color: $navbar-dark-toggler-border-color;
   }
 
@@ -287,10 +287,9 @@
   }
 
   .navbar-text {
-    color: $navbar-dark-color;
+    color: rgba($color: #ecd5d5, $alpha: 1.0);
     a {
-      color: $navbar-dark-active-color;
-
+      color: rgba($color: #e0c6c6, $alpha: 1.0)
       @include hover-focus {
         color: $navbar-dark-active-color;
       }
