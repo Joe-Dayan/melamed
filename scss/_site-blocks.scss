@@ -28,7 +28,7 @@ $black: #000;
 		}
 		a {
 			font-size: 20px;
-			color: $white;
+			color: rgba(212, 187, 187, 0.993)!important;
 			text-transform: uppercase;
 			font-weight: bold;
 		}
@@ -130,17 +130,17 @@ $black: #000;
 				position: absolute;
 				z-index: 3;
 				top: 50%;
-				left: 50%;
+				left: 10%;
 				width: 100%;
 				transform: translate(-50%, -50%);
 				margin-top: 30px;
 				transition: .3s all ease;
 				opacity: 0;
-				visibility: hidden;
-				text-align: center;
+				visibility: visible;
+				text-align: right;
 				.icon {
 					color: $white;
-					font-size: 20px;
+					font-size: 10px;
 				}
 				.heading {
 					font-size: 16px;
