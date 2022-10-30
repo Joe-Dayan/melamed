@@ -493,12 +493,18 @@
 }
 .icon-twitter:before {
   content: "\f099";
+  text-transform: lowercase!important;
+  font-weight: bold;
 }
 .icon-facebook:before {
   content: "\f09a";
+  text-transform: lowercase!important;
+  font-weight: bold;
 }
 .icon-facebook-f:before {
   content: "\f09a";
+  text-transform: lowercase!important;
+  font-weight: bold;
 }
 .icon-github:before {
   content: "\f09b";
